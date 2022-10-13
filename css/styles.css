@@ -1,7 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-    background-color: #e5e5e5;
   }
   .main-box {
     background-color: #2f303a;
@@ -19,7 +18,6 @@ body {
     background-color: #2196f3;
     font-family: inherit;
     font-size: 16px;
-    font-weight: 700;
     color: white;
     box-align: center;
     line-height: 1.88;
@@ -29,27 +27,23 @@ body {
   }
   
   .lorem {
-    font-family: "Roboto";
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #212121;
   }
   h2 {
     color: #212121;
     font-size: 36px;
-    font-weight: "700";
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
   }
   .loremparagraph {
-    font-family: "Roboto";
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.17;
   
     letter-spacing: 0.03em;
   
@@ -57,11 +51,10 @@ body {
   }
   
   .name {
-    font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
   
     letter-spacing: 0.03em;
   
@@ -69,11 +62,9 @@ body {
   }
   
   .position {
-    font-family: "Roboto";
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
   
     letter-spacing: 0.03em;
   
@@ -84,7 +75,7 @@ body {
     color: #212121;
     font-weight: "500";
     font-size: 16px;
-    line-height: "1.6";
+    line-height: 1.6;
     background-color: #e5e5e5;
     border: none;
     cursor: pointer;
@@ -105,20 +96,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
   }
-  nav :hover {
+  navmenu:hover {
     color: #2196f3;
   }
-  nav :focus {
+  navmenu:focus {
     color: #2196f3;
   }
-  nav :active {
+  navmenu:active {
     color: #2196f3;
   }
   
-  nav > a {
+  navmenu > a {
     font-family: "Raleway", sans-serif;
     color: black;
-    font-weight: "700";
     font-size: 26px;
   }
   .logo > .blue {
@@ -141,14 +131,11 @@ body {
   
   .specialization {
     color: #212121;
-    font-weight: "700";
     font-size: 18px;
     line-height: 2;
   }
   .range {
     color: #757575;
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.8px;
   }
@@ -156,9 +143,8 @@ body {
   .studioname {
     color: #2196f3;
     font-family: "Raleway";
-    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
   }
   .dark {
     color: #000000;
@@ -168,15 +154,13 @@ body {
   }
   
   .menu {
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
   }
   
   .portoflio {
     color: #2196f3;
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
@@ -185,36 +169,40 @@ body {
   
   .mail {
     color: #757575;
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
   }
+  .mail:hover{color: #2196f3;}
+
+
   .telephone {
     color: #757575;
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
   }
+
+  .telephone:hover{color: #2196f3;}
+
   .buttons {
+    font-family: inherit;
     color: #212121;
-    font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
   }
+  .adress { font-style: normal;}
   
   .backround {
     background: #2f303a;
   }
   .cityadress {
     color: #ffffff;
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
   }
   
   ul {
