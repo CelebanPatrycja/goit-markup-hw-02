@@ -1,13 +1,16 @@
+
 body {
     font-family: "Roboto", sans-serif;
     color: #212121;
-  }
+    background-color: #e5e5e5;
+    background-color: #f5f4fa;
+  } 
   .main-box {
     background-color: #2f303a;
     font-family: inherit;
   }
   
-  h1 {
+  h1 {;
     font-size: 44px;
     color: white;
     line-height: 1.36;
@@ -49,7 +52,6 @@ body {
   
     color: #757575;
   }
-  
   .name {
     font-style: normal;
     font-weight: 500;
@@ -106,7 +108,7 @@ body {
     color: #2196f3;
   }
   
-  navmenu > a {
+  .navmenu > a {
     font-family: "Raleway", sans-serif;
     color: black;
     font-size: 26px;
