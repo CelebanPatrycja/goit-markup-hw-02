@@ -1,10 +1,13 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #212121;
+    color:var(--brand-color);
     background-color: #e5e5e5;
     background-color: #f5f4fa;
   } 
+  :root{ --brand-color: #212121;}
+  :root{ --grey-item: #757575;}
+  :root{ --blue-item: #2196f3;}
   .main-box {
     background-color: #2f303a;
     font-family: inherit;
@@ -18,7 +21,7 @@ body {
     text-align: center;
   }
   .button-main {
-    background-color: #2196f3;
+    background-color:var(--blue-item);
     font-family: inherit;
     font-size: 16px;
     color: white;
@@ -34,10 +37,10 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #212121;
+    color:var(--brand-color);
   }
   h2 {
-    color: #212121;
+    color: var(--brand-color);
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -50,7 +53,7 @@ body {
   
     letter-spacing: 0.03em;
   
-    color: #757575;
+    color:var(--grey-item);
   }
   .name {
     font-style: normal;
@@ -60,7 +63,7 @@ body {
   
     letter-spacing: 0.03em;
   
-    color: #212121;
+    color:var(--brand-color);
   }
   
   .position {
@@ -70,11 +73,11 @@ body {
   
     letter-spacing: 0.03em;
   
-    color: #757575;
+    color:var(--grey-item);
   }
   button {
     font-family: inherit;
-    color: #212121;
+    color:var(--brand-color);
     font-weight: "500";
     font-size: 16px;
     line-height: 1.6;
@@ -83,13 +86,13 @@ body {
     cursor: pointer;
   }
   button:hover {
-    background-color: #2196f3;
+    background-color:var(--blue-item);
     color: white;
   }
   
   a {
     text-decoration: none;
-    color: #212121;
+    color:var(--brand-color);
   }
   nav {
     text-decoration: none;
@@ -98,14 +101,14 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
   }
-  navmenu:hover {
-    color: #2196f3;
+  .navmenu:hover {
+    color:var(--blue-item);
   }
-  navmenu:focus {
-    color: #2196f3;
+  .navmenu:focus {
+    color: var(--blue-item);
   }
-  navmenu:active {
-    color: #2196f3;
+  .navmenu:active {
+    color: var(--blue-item);
   }
   
   .navmenu > a {
@@ -114,7 +117,7 @@ body {
     font-size: 26px;
   }
   .logo > .blue {
-    color: #2196f3;
+    color: var(--blue-item);
   }
   
   ul {
@@ -122,28 +125,28 @@ body {
   }
   .contact {
     text-decoration: none;
-    color: #757575;
+    color:var(--grey-item);
     font-size: 14px;
     font-weight: "500";
     line-height: 1.17;
   }
   .contact:hover {
-    color: #2196f3;
+    color: var(--blue-item);
   }
   
   .specialization {
-    color: #212121;
+    color:var(--brand-color);
     font-size: 18px;
     line-height: 2;
   }
   .range {
-    color: #757575;
+    color:var(--grey-item);
     font-size: 16px;
     line-height: 1.8px;
   }
   
   .studioname {
-    color: #2196f3;
+    color: var(--blue-item);
     font-family: "Raleway";
     font-size: 26px;
     line-height: 1.19;
@@ -162,7 +165,7 @@ body {
   }
   
   .portoflio {
-    color: #2196f3;
+    color: var(--blue-item);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
@@ -170,27 +173,27 @@ body {
   }
   
   .mail {
-    color: #757575;
+    color: var(--grey-item);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
   }
-  .mail:hover{color: #2196f3;}
+  .mail:hover{color: var(--blue-item);}
 
 
   .telephone {
-    color: #757575;
+    color: var(--grey-item);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
   }
 
-  .telephone:hover{color: #2196f3;}
+  .telephone:hover{color: var(--blue-item);}
 
   .buttons {
     font-family: inherit;
-    color: #212121;
+    color:var(--brand-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
