@@ -193,10 +193,12 @@ padding-top: 969px;
 align-items: center;
 align-content: center;
   }
-  .job {display:flex;
-align-items: center;
-align-content: center;
-margin-left: 409px;}
+  .job {
+ font-size: 36px;
+font-weight: 700;
+line-height: 1.17;
+text-align: center;
+}
 
   .name {
     font-style: normal;
@@ -230,8 +232,13 @@ margin-left: 409px;}
     color: white;
   }
   .pictures{display: flex;
-  text-align: center;
-gap:30px;}
+  }
+.picture-job{margin-right:30px;}
+.picture-job:last-child {
+  margin-right: 0;
+}
+.list-pictures{display: flex;
+gap: 30px;}
 
   a {
     text-decoration: none;
@@ -287,7 +294,9 @@ gap:30px;}
 align-items:center;}  
 
 .studioname { display: flex; 
-  height:31px;
+  padding-top: 24px;
+  padding-right: 1240px;
+  padding-left: 215px;
 margin: 0 auto;
 }
   
