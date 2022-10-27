@@ -5,52 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css" />
+   
   </head>
-<section class="section">
-  <body>
+  <body class="body-class">
     
     <header>
-      <div  class="container">
+      <div  class="container header-wrapper">
+        <nav class="navmenu">
         <div class="header-style">
-        <a class="logo-item" href="./index.html"> <p class="studioname"><span class="dark">Web</span>Studio</p>
+        <a class="logo-item" href="./index.html"> <p class="studioname"><span class="dark">Web</span><span class="black">Studio</span> </p>
       </a>
-      <nav class="navmenu">
-          <!-- Navigate to other pages -->
-        <ul class="menu">
-          <li><a href="#">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+      <div>
+     <ul class="menu topline">
+          <li class="list-menu"><a class="agency  elementblue" href="#">Agencja</a></li>
+          <li class="list-menu"><a class="portfolio elementblue" href="portfolio.html">Portfolio</a></li>
+          <li class="list-menu"><a class="contacts elementblue" href="#">Kontakt</a></li>
         </ul>
       </nav>
+      <!--<div class="list-box">-->
       <ul class="mail-telephone">
-      <li>
-        <a class="mail" href="mailto:info@example.com"
+      <li class="mailandtel">
+        <a class="mail-adress mail  elementblue" href="mailto:info@example.com"
           >info@example.com</a>
       </li>
-      <li><a class="telephone" href="tel:+48111111111">+48 111 111 111</a></li>
+      <li class="mailandtel"><a class="telephone mail  elementblue" href="tel:+48111111111">+48 111 111 111</a></li>
     </ul>
-  </div>
-</div>
-</section>
-    </header>
-<section class="section">
+    <!-- </div>
+      </div> -->
+</header>
+
     <main>
+      <section class="section-gray">
       <div class="container">
-      <div class="grey-class">
+      <div class="dark grey-class ">
   <h1 class="h1">Efektywne rozwiązania dla waszego biznesu</h1>
 
         <button class="button-main">Zamów usługę</button>
       </div>
       </div>
-      <div class="container"> 
-        <div class="lorem-class">
-        <ul class="loremlist">
-          <li>
+      </section>
+      <section>
+      <div class="container-lorem" class="lorems"> 
+        <ul class="lorem" class="list">
+          <li class="lorem-margin">
             <h3 class="lorem-h3">LOREM IPSUM</h3>
             <p class="loremparagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -58,21 +60,21 @@
             </p>
           </li>
 
-          <li>
+          <li class="lorem-margin">
             <h3 class="lorem-h3">LOREM IPSUM</h3>
             <p class="loremparagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="lorem-margin">
             <h3 class="lorem-h3">LOREM IPSUM</h3>
             <p class="loremparagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="lorem-margin">
             <h3 class="lorem-h3">LOREM IPSUM</h3>
             <p class="loremparagraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -88,7 +90,7 @@
         <h2 class="job">Czym się zajmujemy</h2> </div>
         <ul class="list-pictures" class="pictures">
           <li class="picture">
-            <img class="picture-job"
+            <img class="picture-margin"
               src="images/img00.png"
               alt="keyboard"
               width="370"
@@ -96,7 +98,7 @@
             />
           </li>
           <li class="picture">
-            <img class="picture-job"
+            <img class="picture-margin"
               src="images/img(01).png"
               alt="tablet "
               width="370"
@@ -104,7 +106,7 @@
             />
           </li>
           <li class="picture">
-            <img class="picture-job"
+            <img class="picture-margin"
               src="images/img(02).png"
               alt="tabletwithpen"
               width="370"
@@ -114,25 +116,27 @@
         </ul>
       </div>
       </section>
-<section class="section">
+<section>
   <div class="container"> 
     <div class="team-class">
         <h2 class="team">Nasz Zespół</h2>
-        <ul class="teammembers">
+        <ul class="team-list" class="teammembers">
           <li class="member">
             <img
-              class="memberpicture"
+              class="picture-job"
               src="images/img(13).jpg"
               alt="product designer"
               width="270"
               height="260"
             />
+            <div class="align-member">
             <p class="name">John Doe</p>
             <p class="position">Product designer</p>
+            </div>
           </li>
           <li class="member">
             <img
-              class="memberpicture"
+              class="picture-job"
               src="images/img.jpg"
               alt="frontend developer"
               width="270"
@@ -143,7 +147,7 @@
           </li>
           <li class="member">
             <img
-              class="memberpicture"
+              class="picture-job"
               src="images/img(1).jpg"
               alt="marketing"
               width="270"
@@ -154,12 +158,13 @@
           </li>
           <li class="member">
             <img
-              class="memberpicture"
+              class="picture-job"
               src="images/img(14).jpg"
               alt="ui designer"
               width="270"
               height="260"
             />
+            <div class="align-member">
             <p class="name">John Doe</p>
             <p class="position">UI Designer</p>
           </li>
@@ -168,26 +173,20 @@
       </div>
       </section>
     </main>
-<section class="section">
-<div class="container"> 
-  <div  class="footer-class">
-    <footer class="footer-background">
-      <a  href="./index.html" class="studioname">Web<span class="white">Studio</span></a>
-
-<address class="adress">
+<footer class="dark-background"> 
+      <a class="footer-logo"  href="./index.html"> <span class="studioname">Web</span></a><span class="white">Studio</span></a>
+<address class="adress-item">
         <p class="cityadress">m. Warszawa, Aleje Jerozolimskie 21</p>
-        <ul>
+        <ul class="link-item">
           <li>
-            <a class="mail-footer" href="mailto:info@example.com">info@example.com></a>
+            <a class="mail list-element elementblue" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="telephone-footer" href="tel:+48111111111">+48 111 111 111></a>
+            <a class="mail list-element elementblue" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
       </address>
     </footer>
-  </div>
-  </div>
   </section>
   </body>
 </html>
